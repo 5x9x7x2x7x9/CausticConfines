@@ -21,7 +21,7 @@
 - Polished the floor UI
 - Enemy HP will *always* increase when going down a floor (previously only went up when you skipped floors)
 - Detection zoom now zooms OUT instead of IN before being 100% detected.
--some infection visual effects have been moved to higher values, due to being a bit *too* obstructive
+//-some infection visual effects have been moved to higher values, due to being a bit *too* obstructive
 
 <>------------------------------
 <>**ENEMY CHANGES**
