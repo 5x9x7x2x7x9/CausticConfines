@@ -89,3 +89,6 @@ Some other bugs were fixed in general changes
 - Contaminateds can now respawn on later floors if left behind.
 - Fixed an issue where contaminated HP did not scale with floor number
 - Attempted to fix ability recharge (the L key has been disabled now due to it no longer being needed)
+
+>>rah! juggernaut behemoth
++New version of changelog allows to change the update log without restarting servers, removing some unneeded shutdowns
