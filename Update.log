@@ -1,151 +1,90 @@
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
-The ender is never
+#UPDATE 9/10/2024
+
+<>------------------------------
+<>**GENERAL CHANGES**
+<>------------------------------
+- [!] FIXED MAP GENERATION ERRORS!
++ Improved map generation + fixed tiles spawning inside each other (thanks steven!)
+- Replaced generator minigame with a more polished version
+- Added highlight to currently selected item
+- Added an indicator for trying to pick up an item when your inventory is full
+- Carrying a gun or melee will no longer let you interact with doors or pick up items
+- Replaced the click prompt when grabbed by Revenant, Juggernaut, and Behemoth with a new minigame
+- Crates will no longer display their GUI when at level 0
+- Crates will now display differently when at level 0
+- Crate GUI will now update when its used in real time
+- Crate GUI now shows item names
+- Crates now place items directly into the player inventory if theres space avaliable
+- Items can now be dropped softly, or thrown (based on melee attack damage and speed respectively)
+- Added more to the **Mag** tooltip, to tell the player how to use it properly.
+- Readded the blood drip at the top of your screen when HP is low
+- Polished the floor UI
+- Enemy HP will *always* increase when going down a floor (previously only went up when you skipped floors)
+- Detection zoom now zooms OUT instead of IN before being 100% detected.
+-some infection visual effects have been moved to higher values, due to being a bit *too* obstructive
+
+<>------------------------------
+<>**ENEMY CHANGES**
+<>------------------------------
+**WEEPER**
+[+] Can now see through smoke grenades
+[-] Deals a new damage type "Acid" (damages ONLY armor if you have it, otherwise deals fire damage)
+
+**FERRYMAN**
+[+] Can now see through smoke grenades
+[-] Can no longer use his grab unless hes swung 3 regular attacks at the player (resets after he uses the attack)
+
+**REVENANT**
+[+] Now deals an additional 50 damage with a new damage type called "Armor" (deals 3x damage to armor) when he melee attacks
+
+**EXTERMINATOR**
+[-] Poison area now deals "Acid" Damage
+[-] Bonus damage from irradiated stacks deals "Acid" Damage
+[-] Health has been fixed
+
+<>------------------------------
+<>**ORIGIN BALANCING**
+<>------------------------------
+**HOARDER**
+[+] Stamina : 90 -> 150
+[+] Melee damage : 1.2x -> 1.4x
+
+**GLADIATOR**
+[-] Item storage : 4 -> 2
+
+**BRAWLER**
+[+] Stamina regen : 1.0x -> 1.15x
+[+] Melee speed: 1.15x -> 1.2x
+
+**TRANQUILIZER**
+[+] Darts no longer have spread (idk why they did anyway)
+
+**SPIRIT**
+[-] Viper : Gun damage 2.15x -> 1.75x
+[-] Added vessel decay (now decays at the rate of 1hp/sec unless its a high HP vessel where it decays at 2hp/sec)
+[+] Frenzy vessels do not decay at all.
+
+**TACTICIAN**
+[+] Added some variation to the damage number position, so damage numbers don't stack on top of eachother anymore
+[+] Added tier 4, this is given to all bosses, Shadow hunter is given level ?
+
+**Golem**
+[+] Ability cooldown : 120s -> 45s
+[+] Knockback on ability : 55 -> 75
+[+] Radius of slam : 15 -> 22
+
+**Survivalist**
+[+] Observe mode renamed to "Dexterous" as it increases melee attack speed
+[+] Reworked stealth mode into "Precision" mode, which increases gun damage.
+
+<>------------------------------
+<>**BUGFIXES**
+<>------------------------------
+- Spirit's Chaser vessel no longer has weird movement animations
+- Attempted to improve the anti-fling barriers
+- Bumping into a wall while crouching and dashing will no longer reset you to walking speed while crouching
+Some other bugs were fixed in general changes
+- Aggression will now heal accordingly when throwing a hysteria (previously health him to 75%, now its based on hysteria thrown)
+- Contaminateds can now respawn on later floors if left behind.
+- Fixed an issue where contaminated HP did not scale with floor number
+- Attempted to fix ability recharge (the L key has been disabled now due to it no longer being needed)
