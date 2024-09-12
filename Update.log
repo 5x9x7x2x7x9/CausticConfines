@@ -1,3 +1,22 @@
+<>------------------------------
+<>#UPDATE 9/12/2024
+<>------------------------------
+
+<>------------------------------
+<>**GENERAL CHANGES**
+<>------------------------------
+
+- Updated alicepack's script
+- Updated the generators in the lobby
+
+<>------------------------------
+<>**BUGFIXES**
+<>------------------------------
+
+- Fixed sickle clipping out of the map
+- Fixed generator delay when ending
+- Fixed throw power able to be indefinite
+
 #UPDATE 9/10/2024
 
 <>------------------------------
