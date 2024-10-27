@@ -1,4 +1,37 @@
-<>#Big update soon!
+<>#Crafting Update - 10/27/2024
+- Added workbenches and crafting [MAJOR]
+- Added 7 new scrap items
+- Added perk levels + PerkBoosters and MaterialBoosters.
++ Perk boosters buff "physical" origins, while material boosters buff "equipment based" origins.
+
+<>----------------------------
+<>**ORIGINS**
+<>----------------------------
+- reworked prospector
+- reworked scout
+- reworked technician
+- tweaked how survivalist modes work
+- tweaked gunslinger's ability
+- added new mechanics to:
++ gladiator (L1)
++ Mechanist (L2)
++ Alchemist (L1)
++ Necromancer (L0)
++ Defect (L1)
++ Unseen (L2)
++ Blighted (L2)
+
+- Buffed Thug's melee damage (1.1x -> 1.15x)
+
+<>----------------------------
+<>**ENEMIES**
+<>----------------------------
+- Crystalized now gains a 10s speed boost when his crystals explode. This stacks infinitely.
+
+<>----------------------------
+<>**MISC**
+<>----------------------------
+- bugfixes
 
 <>#UPDATE 9/12/2024
 
@@ -61,52 +94,3 @@
 [-] Poison area now deals "Acid" Damage
 [-] Bonus damage from irradiated stacks deals "Acid" Damage
 [-] Health has been fixed
-
-<>------------------------------
-<>**ORIGIN BALANCING**
-<>------------------------------
-**HOARDER**
-[+] Stamina : 90 -> 150
-[+] Melee damage : 1.2x -> 1.4x
-
-**GLADIATOR**
-[-] Item storage : 4 -> 2
-
-**BRAWLER**
-[+] Stamina regen : 1.0x -> 1.15x
-[+] Melee speed: 1.15x -> 1.2x
-
-**TRANQUILIZER**
-[+] Darts no longer have spread (idk why they did anyway)
-
-**SPIRIT**
-[-] Viper : Gun damage 2.15x -> 1.75x
-[-] Added vessel decay (now decays at the rate of 1hp/sec unless its a high HP vessel where it decays at 2hp/sec)
-[+] Frenzy vessels do not decay at all.
-
-**TACTICIAN**
-[+] Added some variation to the damage number position, so damage numbers don't stack on top of eachother anymore
-[+] Added tier 4, this is given to all bosses, Shadow hunter is given level ?
-
-**Golem**
-[+] Ability cooldown : 120s -> 45s
-[+] Knockback on ability : 55 -> 75
-[+] Radius of slam : 15 -> 22
-
-**Survivalist**
-[+] Observe mode renamed to "Dexterous" as it increases melee attack speed
-[+] Reworked stealth mode into "Precision" mode, which increases gun damage.
-
-<>------------------------------
-<>**BUGFIXES**
-<>------------------------------
-- Spirit's Chaser vessel no longer has weird movement animations
-- Attempted to improve the anti-fling barriers
-- Bumping into a wall while crouching and dashing will no longer reset you to walking speed while crouching
-Some other bugs were fixed in general changes
-- Aggression will now heal accordingly when throwing a hysteria (previously health him to 75%, now its based on hysteria thrown)
-- Contaminateds can now respawn on later floors if left behind.
-- Fixed an issue where contaminated HP did not scale with floor number
-- Attempted to fix ability recharge (the L key has been disabled now due to it no longer being needed)
-
-+New version of changelog allows to change the update log without restarting servers, removing some unneeded shutdowns
