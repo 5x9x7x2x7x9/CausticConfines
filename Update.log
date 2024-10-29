@@ -1,3 +1,11 @@
+<>#Bugfixes/QOL 10/28/2024
+- Workbench has sections and searching now
+- Bug fixes with workbench:
++ Newer weapons can actually be crafted now
++ Doesn't vanquish the items when you put in new recipe
+
+- Recipe pinning feature soon
+
 <>#Crafting Update - 10/27/2024
 - Added workbenches and crafting [MAJOR]
 - Added 7 new scrap items
