@@ -1,3 +1,150 @@
+<>#Quick fix update - 4/7/2025
+- Fixed a bug where the Alchemist could make infinite potions from 4 chemical scraps
+- (Hopefully) Fixed a bug where the spectate GUI persists through respawns
+
+<>#Small balancing update - 4/6/2025
+- Fixed the sledgehammer having a bad hitbox
+- Increased sledgehammer swing speed
++ +25%
+- Fixed the hammer having a bad hitbox
+- Reduced John Confines' Harbinger damage
+- John Confines' Harbinger can no longer hit you with both hitboxes
+- Added a bright light to John Confines when he is performing the Harbinger attack
+- Fixed a bug where the Shadow Hunter couldn't kill people
+- Attempted to fix the Revanent leaving his arena
+- Fixed some documents having some inconsistencies
+
+<>#Small patch - 4/5/2025
+- Buffed some of the Effigy's aspects
++ Darkest Night duration increased to 15s
++ Unholy Guidance duration: 4s > 120s
++ Mass Infection (slightly raised formula)
++ Vampiric Nature: 5% > 8%
+- Added level requirements for the aspects
+- Raised % requirement for aspects by 15%
++ 45% > 60%
+- Added limit to ALL Technician devices to reduce lag
+- Fixed a bug where radars didn't mark things
+- Other bug fixes
+
+<>#Small balance update - 4/5/2025
+- Made common enemy spawn weights higher
++ Typically around 25-35 > 40-70
+- Made uncommon enemy spawn weights higher
++ Typically around 8-15 > 15-30
+- Attempted to add a spawn cap for unique enemies per floor
+
+<>#Bugfix update - 4/4/2025
+- Takedowns no longer set detection to 0% when it starts
+- Takedowns no longer set detection to 100% when it ends
++ Instead, the player now gains detection for each NEARBY enemy. They are still alerted to your location
+- Performing a takedown will now give you the "Reckless" debuff for 25s.
++ Reckless makes you get detected 15% faster. This debuff can stack
+- Added an indicator for when a takedown is blocked/resisted
++ Enemies who have their resistances broken will be stunned briefly
+- Players are no longer stunned for having their takedown blocked
++ Instead, an animation will play and they will be given a brief cooldown
+- Buffed Astral Staff's ranged damage
++ Basic: 20 > 32
++ Combo: 40 > 55
+- Fixed a bug where the Astral Staff would not break properly upon swinging it
+- Detection decay time decreased
++ 500 > 400
+- Detection decay is now affected by the origin's detection modifier
+- Fixed a bug where first time players would spawn as the Clown origin instead of the Nobody
+- Fixed a bug where gun crates did NOT drop ammo
+- Players are now forced to the 1.0 package and default head
+
+<>#Small update - 4/3/2025
+- Reduced Visitor spawn rates and spawn weight
++ Floor 10 > Floor 25
++ Spawn weight: 2 > 1
++ On begin spawn floor: 5 > 4
+- Added global cap to Technician's turrets, diversions, ventilators, and boombas
++ Turrets: 8
++ Diversions: 4
++ Ventilators: 4
++ Boombas: 10
+- Fixed a bug where John Confines took bonus explosion damage
+- Fixed a scripting error where it bugged origins
+
+<>#ARCHIVES PART I UPDATE 4/1/2025
+<>----------------------------
+- April Fools! Defeat John Confines on floor 50/100/150 to unlock the Clown origin. Event lasts between April 1st-7th.
+- Added Clown origin (Misc.)
++ To unlock this, you must defeat John Confines
+- Added John Confines as a boss
++ All boss floors have been replaced with John Confines and his arena
+- Added drone system (port-mortem gameplay)
+- Added the Archives (found in the armory. to unlock enemy documents, you need to kill a certain amount of them ingame)
+- Added stealth takedowns
++ To perform one, sneak up behind an enemy and attack. BEWARE: Some enemies have immunities to some weapons' takedowns!
+- Added an anti-loitering system
++ Spending too much time on a floor or doing too little generators will punish you with more ambushes or lower floor times
+- Added new event: High Value Targets
++ Sometimes, "High Value Targets" can spawn. Killing them will grant +2 bonus generators, allowing you to descend faster
+- Added 4 new enemies
+- Ambushes have been reworked
++ The longer you take, the higher the CHANCE of an ambush happening
+- Each floor warning will now spawn more enemies throughout the floor
+- Changed how rerolling floors work
++ Instead of rerolling the floor, you will now ASCEND up 3 floors. Make sure not to ascend past floor 1 :)
+- Base game speed has been increased by 20% for players and enemies
++ This is to make the game feel faster and more fun overall
+
+<>----------------------------
+<>**Origin Changes**
+<>----------------------------
+#Mechanist
+- Debuffs while shield is up decreased
++ -30% > -20%
+#Agent
+- Complete tablet overhaul!
+#Effigy
+- Can now craft aspects
++ These are permanent effects that can be applied to melee weapons
+- Can now "overcharge" wards with 45% or more charge
+- Now builds up charge with the "Ritual Dagger" by dealing damage and harvesting off of corpses
++ You can no longer harvest the Growth for ability charge
+#Scout
+- Ability now functions better
+#Necromancer
+- Corpse Whistle commands are now selected and executed through a GUI
+#Defect
+- Shadow Brawler grab damage decreased
++ 272 > 230
+#Doomed
+- Ability death chance decreased
++ 50% > 40%
+- Survival bonus from a use of the ability has been improved
++ +10 > +35
++ Now applies adrenaline
+- New buff for DYING to your ability: Sacrificial
++ Dying to your ability now gives a buff to all surviving players. Power is dependent on origin level
+#Gladiator
+- Weapon slots increased
++ 2 > 3
+
+<>----------------------------
+<>**Elevator Upgrades**
+<>----------------------------
+- Added Drone Charger
++ Passively recharges drone energy when nearby
+- Added Drone Repairs
++ Requires Drone Charger, passively replenishes drone HP when nearby
+- Added Stronger Drones
++ Increases drone stats
+
+<>----------------------------
+<>**Other Changes**
+<>----------------------------
+- Added ammo types
++ Each gun now takes a specific ammo type. Gone are the days of stuffing a mag into an RPG
+- Buffed Caustic Hearts
++ Permanently increases max HP by +10 on use, but also raises minimum infection floor by +10%
+- Scrap stacks increased
++ 5 > 8
+
 <>#COLLAB UPDATE 11/27/2024
 <>----------------------------
 - Added The Visitor (new rare enemy/sub-boss)
@@ -11,12 +158,12 @@
 <>----------------------------
 <>**Unrelated Changes and Additions**
 <>----------------------------
-+ Added Mania (new rare enemy that spawns on floor 60+)
-+ Perk/Material boosters now drop on death
-+ Workbench can craft elevator upgrades, these persist for the rest of the run.
-+ Bug Fixes
-+ Scrap items can now stack up to 5 scraps per inventory slot
-+ Armor that blocks *Physical* damage will now also block *Ranged* damage.
+- Added Mania (new rare enemy that spawns on floor 60+)
+- Perk/Material boosters now drop on death
+- Workbench can craft elevator upgrades, these persist for the rest of the run.
+- Bug Fixes
+- Scrap items can now stack up to 5 scraps per inventory slot
+- Armor that blocks *Physical* damage will now also block *Ranged* damage.
 
 <>#Small update - 10/31/2024
 - New cake ;)
