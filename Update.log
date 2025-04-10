@@ -1,3 +1,30 @@
+<>#Tiny update - 4/9/2025
+- Drones now make noise
++ Land drones now make noises when moving
++ Flying drones always made propeller noises
+- Bug fixes
+
+<>#Weapon balance changes - 4/8/2025
+- John Confines' appearance is now toggleable at the start of a game
++ For those who are tired of seeing him, rejoice.
+- Bat damage increased
++ +6
+- Gaunelets damage increased
++ +2
++ Passive ability buffed, 25% bonus damage > 30% bonus damage
+- Pipe's ability's scrap amount buffed
++ Corrupt: 0 > 2
++ Basic: 1 > 4
++ Pristine: 2 > 8
+- Pitchfork's passive ability buffed
++ +100% cap > 225% cap
+- Shovel's passive ability buffed
++ Effect is now permanent while under 35% HP
+- Sword's combo ability duration buffed
++ 5s > 10s
+- Trench mace's ability buffed
++ 2x damage on full health > 4x damage on full health
+
 <>#Quick fix update - 4/7/2025
 - Fixed a bug where the Alchemist could make infinite potions from 4 chemical scraps
 - (Hopefully) Fixed a bug where the spectate GUI persists through respawns
