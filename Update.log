@@ -1,3 +1,12 @@
+<>#Decent update - 4/12/2025
+- Replaced ALL mentions of wait() with task.wait() with a few exceptions. Hopefully this reduces game lag!
++ Some errors will most definitely arise. Please report them if you find one.
+- Unseen's claw now has a takedown style of "Curse" instead of "Stab", meaning it can kill more enemies on average
+- Reduced enemy detection values by 50% to accomodate for the script optimizations
+- Guaranteed statue spawns have been reworked
++ They will still spawn every 10 floors. However, if you miss the floor, it will still spawn on the floor you arrive at, in which the next one after it will spawn 10 floors later
++ Ex: You skip floor 10 and arrive at floor 11, the statue will spawn and the next one will appear on floor 21
+
 <>#Tiny update - 4/9/2025
 - Drones now make noise
 + Land drones now make noises when moving
