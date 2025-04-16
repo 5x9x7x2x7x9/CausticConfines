@@ -1,3 +1,9 @@
+<>#Document patch work - 4/16/2025
+- The Nobody's application date as well as the date he received a recruitment section of a newspaper has been changed
+- The Survivalist's date of capture has been changed to the 25th of July instead of the 30th
+- The Doomed's document has been slightly altered to fit the current timeline of events
+- Beacon got a rework on 4/8/2025, it was forgotten to be put into update logs
+
 <>#Decent update - 4/12/2025
 - Replaced ALL mentions of wait() with task.wait() with a few exceptions. Hopefully this reduces game lag!
 + Some errors will most definitely arise. Please report them if you find one.
