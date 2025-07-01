@@ -1,3 +1,88 @@
+<>#Map Update Part I 7/1/2025
+<>----------------------------
+- Added the Mines (new floor type, spawns floors <26)
+- Revamped the Cave System (spawns floor 26-50)
+- Added Catacombs (spawns floors 51+)
+<>----------------------------
+<>**Enemy Changes**
+<>----------------------------
+- Crystalized cooldown on speed burst (0.7s -> 1.8s)
+- Assassin no longer works off the takedown engine. He will now do a strong melee swing instead of just instantly killing the player
+- Conjurers will now attack if there's another enemy nearby
+- Gremlins will now correctly get angry if you steal from them
+- *Most* enemies have gotten animation improvements (thanks eyes!)
+- Mass has been fully reworked
+- Aggression's star rush ability now targets players
+- Aggression's meteor slam now gives a 0.7 second warning before he slams
+- Aggression now deals more damage and attacks faster with each hysteria missing
+<>----------------------------
+<>**Origin Changes**
+<>----------------------------
+- ORIGINS WITH UIs NOW HAVE KEYBINDS (might be buggy)
+- **Rifter rework!**
+ - The Rifter now has different abilities he can use. Leveling up will unlock more
+- **Scout ability rework!**
+ - Holding [F] no longer darkens your vision
+ - He now has a makeshift flash beacon he can use to blind enemies by holding [F] and clicking while you have at least one token
+- [!] Brawler
+ - Added "Honorbound" status effect (applied when you strike an enemy or an enemy strikes first, fleeing a fight without finishing it will remove the effect and inflict you with the "Dishonored" debuff)
+ - Ability now lunges
+ - Ability now bypasses weak enemies
+ - Follow up punch damage increased from 15 > 35 (while Honorbound is applied)
+- [!] Prospector
+ - Bonus damage with melee dynamite (base 10, +10 explo per level)
+ - He can now rocket jump by holding a stick of dynamite until it explodes
+ - Attaching dynamite to your melee weapon now correctly applies the bonus damage
+- [!] Tranquilizer
+ - Darts will now do splash effects at level 2+ (can't splash sleep)
+ - Melee damage: 1.3x > 1.28x
+ - Melee speed: 0.65x > 0.75x
+ - Walk speed: 0.75x > 0.825x
+ - Basic defense: 0% > 6%
+ - Ranged defense: 0% > 4%
+- [!] Survivalist
+ - Hovering over your ability icon now shows the stat changes you get
+ - Your ability icon will now receive the same gradient as your mode
+ - Athletic mode has been merged with Dexterous mode
+ - Riposting now gives tokens
+ - Machete damage increases with tokens
+ - Balanced/Recovery mode will now give tokens over time
+- [+] Thug's melee damage increased
+ - 1.15x > 1.2x
+- [+] Scout's melee speed increased
+ - 1.3x > 1.4x
+- [-] Gladiator's melee damage decreased
+ - 1.2x > 1.05x
+- [-] Gunslinger's ranged damage decreased
+ - 1.5x > 1.3x
+- [-] Golem's ability damage reduced a bit (it was op and did 200+ damage at high levels)
+<>----------------------------
+<>**Weapon Changes**
+<>----------------------------
+- Cleaver damage increased
+ - +1.8x what it used to be
+- Claw hammer ability buffed
+ - 10s > 30s
+ - Now only affects armor durability by 75% instead of 100%
+- Excavator hitboxes buffed
+ - Now pierces 25% defense as well
+- Pan damage increased
+<>----------------------------
+<>**Weapon Changes**
+<>----------------------------
+- Follow up punch damage increased
+ - +10 damage
+- Parries now CORRECTLY play their audio
+- Parries now reduce damage by 40% BEFORE the block reduction (multiplicative)
+- Parry/Block sounds now apply to both players AND enemies
+ - Enemies will now play the sound if they parry you)
+- Swinging the a melee weapon after you parry will force your combo swing (procs on combo abilities)
+- You can now reset as a drone
+ - If you are alive and are controlling a drone, reset ONCE to destroy the drone
+- If you are reviving a player, the reviver MUST be alive for it to go through
+- The game now has an angle limit of 50 degrees, meaning you will now slip off of parts that are too steep to scale
+<>**AND LOTS OF BUGFIXES!**
+
 <>#Document fixes - 4/28/2025
 - Added images to some caustic aberration documents
 
