@@ -59,6 +59,9 @@
 <>----------------------------
 <>**Weapon Changes**
 <>----------------------------
+- **You can now reload guns without having to mag dump them!**
+ - To do so, hold out your gun, have said gun's ammo type in your inventory, then press [T]
+- Guns will now sometimes spawn with some ammo loaded into them
 - Cleaver damage increased
  - +1.8x what it used to be
 - Claw hammer ability buffed
