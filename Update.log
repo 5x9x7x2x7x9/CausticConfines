@@ -76,7 +76,7 @@
 - Parries now reduce damage by 40% BEFORE the block reduction (multiplicative)
 - Parry/Block sounds now apply to both players AND enemies
  - Enemies will now play the sound if they parry you)
-- Swinging the a melee weapon after you parry will force your combo swing (procs on combo abilities)
+- Swinging a melee weapon after you parry will force your combo swing (procs on combo abilities)
 - You can now reset as a drone
  - If you are alive and are controlling a drone, reset ONCE to destroy the drone
 - If you are reviving a player, the reviver MUST be alive for it to go through
