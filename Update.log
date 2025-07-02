@@ -1,3 +1,11 @@
+<>#Post Update Bug Fixes 7/2/2025
+<>----------------------------
+- Made all melee weapons' hitboxes larger
+- Fixed revive statues being bugged
+- Fixed mag generation sometimes erroring
+- Bumped up the max slope angle
+ - 50 degrees > 70 degrees
+
 <>#Map Update Part I 7/1/2025
 <>----------------------------
 - Added the Mines (new floor type, spawns floors <26)
