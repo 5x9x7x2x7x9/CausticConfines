@@ -2,7 +2,7 @@
 <>----------------------------
 - Made all melee weapons' hitboxes larger
 - Fixed revive statues being bugged
-- Fixed mag generation sometimes erroring
+- Fixed map generation sometimes erroring
 - Bumped up the max slope angle
  - 50 degrees > 70 degrees
 
