@@ -1,3 +1,14 @@
+<>#Post Update Bug Fixes 7/11/2025
+<>----------------------------
+- **New origin: Bounty Hunter**
+ - Unlocked by using a shotgun on an enemy after reeling them in with the sickle's combo swing
+<>**Bug Fixes**
+<>----------------------------
+- Fixed Surgeon's cancel button not working
+- Fixed Agent being broken
+- Fixed an error where the Gunslinger's guns just sometimes didn't shoot for some reason
+- Fixed the Beacon erroring when calling for other shriekers
+
 <>#Post Update Bug Fixes 7/2/2025
 <>----------------------------
 - Made all melee weapons' hitboxes larger
