@@ -1,3 +1,29 @@
+<>#Bug Fixes 7/16/2025
+<>----------------------------
+- Fixed a bug where the Rifter's characer morph would error
+- Fixed a bug where killing Frenzies spawned via 2nd warning and the Mass could be farmed for deep devotion Apparitions
+- Changed some collisions with Effigy wards
+ - Still collides with the environment if its on your back)
+
+<>#Mini Update 7/15/2025
+<>----------------------------
+[!] Bounty Hunter
+- Makeshift Shotgun damage increased
+ - Headshot damage: 11 > 13
+ - Torsoshot damage: 9 > 10
+ - Limbshot damage: 6 > 8
+- Stat changes
+ - Melee damage: 1.0x > 1.1x
+ - Gun damage: 1.1x > 1.4x
+ - Gun speed: 1.2x > 0.6x
+- Ability changes
+ - Makeshift Shotgun now does 25% bonus damage for 2 seconds after grappling an enemy
+ - Makeshift Shotgun now gets a major accuracy boost after grappling a wall
+ - Grapple now pulls enemies to you more violently
+- Crafting changes
+ - Scrap Shells recipe
+  - 2 metal scrap + 1 chemical scrap > 1 metal scrap + 1 glass scrap
+
 <>#Post Update Bug Fixes 7/11/2025
 <>----------------------------
 - **New origin: Bounty Hunter**
