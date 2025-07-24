@@ -1,3 +1,27 @@
+<>#Tiny update 7/21/2025
+<>----------------------------
+- Mechanist's shield will now no longer negate any damage that is 250 or more
+
+<>#Small update 7/20/2025
+<>----------------------------
+- Caustic Confines is now 2 years old! If you join the game, you'll have a tag applied to you that will give you something in the Equipment Update!
+- Fixed a bug where you couldn't change origins
+
+<>#Bug Fixes 7/18/2025
+<>----------------------------
+- Fixed a bug where Vampiric Nature and Blood Is Fuel were allowed to heal negative numbers (takes hp and stamina away instead of recovery)
+- Fixed a bug where the mania would bug out
+- Reduced Brawler's lunge power timer by 50%
+- Fixed a bug where the Mass' "impaler" spikes wouldn't despawn if they killed a player
+- Tweaked smoke grenade particles, should hopefully reduce lag
+- Reduced the amount of light emitted from enemies with the "lantern licker" modifier
+- Reduced "tank" modifier spawn rate
+ - 20% > 7.6%
+- Reduced "lantern licker" modifier spawn rate
+ - 20% > 8.3%
+- Reduced grayscale effect on infection
+ - Maxxed out at 60% > maxxed out at 92%
+
 <>#Bug Fixes 7/16/2025
 <>----------------------------
 - Fixed a bug where the Rifter's characer morph would error
