@@ -1,3 +1,64 @@
+<>#Post Update Patch #1 10/12/2025
+<>----------------------------
+Tutorial:
+- Added failsafe for the combat dummy tutorial
+ - If it doesn't become vulnerable after Jason tells you to rip it apart, it will after 15 seconds after you do the follow-up)
+ - Nerfed the damage of *someone's* projectiles
+
+Main game:
+- Fixed a bug where phantoms could make enemies immortal by grouping up on the same target
+- Fixed a bug where phantoms just wouldn't die correctly
+
+<>#Archives Part II 10/10/2025
+<>----------------------------
+- Agent Phoenix (the guy in the Archives) has been given a voice!
+ - More voicelines to come in the future!
+- Added a new and improved tutorial
+ - Includes a badge
+- Added Golem's Revenge IV arcade cabinet to the lobby
+ - Located near the gambling machines, high scores update every 30 seconds!
+<>----------------------------
+<>**Enemy Changes**
+<>----------------------------
+Shrieker:
+- "Shriek" ability now goes off 3 times, over the course of 1.5 secnods
+ - Each pop is a little larger than the last, but starts are reduced range (200 range > 75/150/225 range)
+- The shriek can now be cancelled via stun
+- The miniumum health a shrieker requires to use their shriek has been reduced (100% > 80%+%)
+
+Cackler:
+- New "echolocation" ability
+ - Every 10-15 seconds, the cackler will activate this ability
+ - If a player is within a 120 stud range, they will gain detection based on how close they are to the cackler (min 0%, max 35%)
+ - If this cackler is targetting a player, they will rally enemies within an 85 stud range to target the player instead
+
+Phantom:
+- New "enemy latch" ability
+ - Phantoms can now latch onto enemies to buff them
+- New "support burst" ability
+  - Phantoms can now let out a small healing burst to heal other enemies
+- New "supporter" passive
+ - Phantoms will teleport to the first possible supportable enemy after spawning in
+ - This passive can only be used ONCE and disabled when spawned in via ambush
+<>----------------------------
+<>**Other Changes**
+<>----------------------------
+- Ambushes have been reverted from a % chance back to a set floor
+- Follow-up punch damage has been buffed
+ - 15 > 25
+ - 35 > 45 for Brawler
+- Fixed some pathfinding issues regarding enemies
+- Fixed some pathfiding issues regarding minions
+- Buffed cleaver damage
+- Buffed Bounty Hunter's (origin) grapple damage
+ - 17 + 11xLevel > 40 + 30xLevel
+- Parries now reduce damage by 30% BEFORE it applies the parry damage reduction (less damage taken, yippee!)
+- Attempted to fix that one bug that disables your movement
+ - (Y'know, the "bad" one I can't name)
+- Updated workbench GUI
+- Reorganized workbench recipes
+- Reduced cost of material boosters
+
 <>#Tiny update 9/28/2025
 <>----------------------------
 - Fixed the issue where the Revenant would spawn in dead
