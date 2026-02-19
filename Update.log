@@ -1,4 +1,14 @@
-<>#Post Update Patch #1 10/12/2025
+<>#Whoops! Forgot to update this!
+
+At the time of writing this, the game has been undergoing a full rewrite in code since 10/19/2025. It is being done due to how all over the place the current code is. It will hopefully fix many bugs, and add new things alongside it. Such as...
+- Melee and gun combat overhaul (combo attacks getting replaced with light and heavy attacks, you'll now be able to ADS and pistol whip with guns) 
+- Shops (in the lobby and ingame during runs)
+- Charms (several charms that can range from increasing a stat to changing how the game is played)
+- Metacurrency (an incentive to keep you guys going)
+- Origin skins (will apply to origin character and origin accessories)
+- And more!
+
+<>#Post Update Patch 10/12/2025
 <>----------------------------
 Tutorial:
 - Added failsafe for the combat dummy tutorial
